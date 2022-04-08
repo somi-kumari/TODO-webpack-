@@ -3,7 +3,7 @@
 	--darker: #1F2937;
 	--darkest: #111827;
 	--grey: #6B7280;
-	--pink: #EC4899;
+	--green: #48ec7f;
 	--purple: #8B5CF6;
 	--light: #EEE;
 }
@@ -62,10 +62,10 @@ input, button {
 }
 
 #new-task-submit {
-	color: var(--pink);
+	color: var(--green);
 	font-size: 1.25rem;
 	font-weight: 700;
-	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	background-image: linear-gradient(to right, var(--green), var(--purple));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	cursor: pointer;
@@ -120,7 +120,7 @@ main {
 }
 
 .task .content .text:not(:read-only) {
-	color: var(--pink);
+	color: var(--green);
 }
 
 .task .actions {
@@ -146,11 +146,11 @@ main {
 }
 
 .task .actions .edit {
-	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	background-image: linear-gradient(to right, var(--green), var(--purple));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .task .actions .delete {
-	color: crimson;
+	color: rgb(165, 0, 33);
 }
